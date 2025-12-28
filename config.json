@@ -1,0 +1,18 @@
+{
+    "safety_settings": {
+        "max_daily_sessions": 3,
+        "min_session_interval_hours": 2,
+        "avoid_night_hours": true,
+        "weekend_mode": true
+    },
+    "engagement_settings": {
+        "like_probability": 0.7,
+        "follow_probability": 0.1,
+        "comment_probability": 0.05,
+        "max_hashtags_per_session": 3
+    },
+    "proxy_settings": {
+        "use_proxy": false,
+        "proxy_url": "http://user:pass@ip:port"
+    }
+}
