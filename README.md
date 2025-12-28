@@ -94,7 +94,7 @@ python insta_bot.py
 ⚙️ Configuration
 -Rate        Limits-
 
-Action	    Daily Limit	    Hourly Limit
+Action - Daily Limit - Hourly Limit
 
 Likes	    120 DL - 15 HL
 
@@ -175,18 +175,6 @@ bot.view_random_stories(limit=15)
 
 # Browse timeline
 bot.browse_timeline(limit=25)
-```
-
-📁 File Structure
-
-```bash
-instagram-bot/
-│
-├── insta_bot.py          # Main bot script
-├── session.json          # Saved login session (auto-generated)
-├── action_counters.json  # Action statistics (auto-generated)
-├── README.md             # This file
-└── logs/                 # Log directory (auto-generated)
 ```
 
 🔍 How It Works
